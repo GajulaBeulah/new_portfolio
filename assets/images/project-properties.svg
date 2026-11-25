@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Hyderabad Properties Management preview">
+  <rect width="400" height="200" fill="#0b172c" />
+  <rect x="24" y="24" width="352" height="152" rx="10" fill="#112240" stroke="#1e3a5f" />
+  <!-- Property cards grid -->
+  <rect x="44" y="42" width="96" height="116" rx="6" fill="#0b172c" stroke="#22d3ee" stroke-opacity="0.45" />
+  <path d="M68 92l24-20 24 20v24H68z" fill="none" stroke="#22d3ee" stroke-width="1.8" stroke-linejoin="round" />
+  <rect x="58" y="130" width="68" height="6" rx="3" fill="#475569" />
+
+  <rect x="152" y="42" width="96" height="116" rx="6" fill="#0b172c" stroke="#1e3a5f" />
+  <rect x="176" y="68" width="48" height="48" rx="3" fill="none" stroke="#94a3b8" stroke-width="1.5" />
+  <line x1="192" y1="68" x2="192" y2="116" stroke="#1e3a5f" />
+  <line x1="208" y1="68" x2="208" y2="116" stroke="#1e3a5f" />
+  <rect x="166" y="130" width="68" height="6" rx="3" fill="#475569" />
+
+  <rect x="260" y="42" width="96" height="116" rx="6" fill="#0b172c" stroke="#1e3a5f" />
+  <path d="M284 94l24-22 24 22v22h-48z" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linejoin="round" />
+  <rect x="274" y="130" width="68" height="6" rx="3" fill="#475569" />
+</svg>

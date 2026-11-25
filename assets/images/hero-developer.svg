@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 420" width="540" height="420" role="img" aria-label="Full Stack Developer workspace illustration">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#112240" />
+      <stop offset="100%" stop-color="#0b172c" />
+    </linearGradient>
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Subtle background grid -->
+  <g stroke="#1e3a5f" stroke-opacity="0.35" stroke-width="1">
+    <line x1="40" y1="50" x2="500" y2="50" />
+    <line x1="40" y1="110" x2="500" y2="110" />
+    <line x1="40" y1="170" x2="500" y2="170" />
+    <line x1="40" y1="230" x2="500" y2="230" />
+    <line x1="40" y1="290" x2="500" y2="290" />
+    <line x1="40" y1="350" x2="500" y2="350" />
+    <line x1="90" y1="30" x2="90" y2="380" />
+    <line x1="180" y1="30" x2="180" y2="380" />
+    <line x1="270" y1="30" x2="270" y2="380" />
+    <line x1="360" y1="30" x2="360" y2="380" />
+    <line x1="450" y1="30" x2="450" y2="380" />
+  </g>
+
+  <!-- Ambient cyan highlight -->
+  <circle cx="420" cy="95" r="70" fill="#22d3ee" fill-opacity="0.08" />
+  <circle cx="120" cy="315" r="85" fill="#0ea5e9" fill-opacity="0.07" />
+
+  <!-- Main Code Editor Window -->
+  <rect x="38" y="42" width="420" height="270" rx="14" fill="url(#cardBg)" stroke="#1e3a5f" stroke-width="1.5" />
+  <!-- Window Header -->
+  <rect x="38" y="42" width="420" height="36" rx="14" fill="#0f1f3a" />
+  <rect x="38" y="64" width="420" height="14" fill="#0f1f3a" />
+  <line x1="38" y1="78" x2="458" y2="78" stroke="#1e3a5f" stroke-width="1" />
+  <!-- Traffic dots -->
+  <circle cx="62" cy="60" r="5" fill="#334155" />
+  <circle cx="80" cy="60" r="5" fill="#334155" />
+  <circle cx="98" cy="60" r="5" fill="#22d3ee" fill-opacity="0.7" />
+  <text x="122" y="64" font-family="Consolas, Monaco, monospace" font-size="11.5" fill="#94a3b8">portfolio.config.js</text>
+
+  <!-- Line numbers -->
+  <g font-family="Consolas, Monaco, monospace" font-size="12" fill="#475569">
+    <text x="58" y="108">01</text>
+    <text x="58" y="132">02</text>
+    <text x="58" y="156">03</text>
+    <text x="58" y="180">04</text>
+    <text x="58" y="204">05</text>
+    <text x="58" y="228">06</text>
+    <text x="58" y="252">07</text>
+    <text x="58" y="276">08</text>
+  </g>
+
+  <!-- Syntax-styled clean code lines -->
+  <g font-family="Consolas, Monaco, monospace" font-size="12.5">
+    <text x="92" y="108"><tspan fill="#22d3ee">const</tspan><tspan fill="#e2e8f0"> developer = {</tspan></text>
+    <text x="108" y="132"><tspan fill="#94a3b8">name:</tspan><tspan fill="#67e8f9"> "Gajula Beulah"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    <text x="108" y="156"><tspan fill="#94a3b8">role:</tspan><tspan fill="#67e8f9"> "Full Stack Developer"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    <text x="108" y="180"><tspan fill="#94a3b8">frontend:</tspan><tspan fill="#e2e8f0"> [</tspan><tspan fill="#67e8f9">"React"</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#67e8f9">"Next.js"</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#67e8f9">"TS"</tspan><tspan fill="#e2e8f0">],</tspan></text>
+    <text x="108" y="204"><tspan fill="#94a3b8">backend:</tspan><tspan fill="#e2e8f0"> [</tspan><tspan fill="#67e8f9">"Supabase"</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#67e8f9">"PostgreSQL"</tspan><tspan fill="#e2e8f0">],</tspan></text>
+    <text x="108" y="228"><tspan fill="#94a3b8">focus:</tspan><tspan fill="#67e8f9"> "Responsive Web Apps"</tspan></text>
+    <text x="92" y="252" fill="#e2e8f0">};</text>
+    <text x="92" y="276"><tspan fill="#22d3ee">export default</tspan><tspan fill="#e2e8f0"> developer;</tspan></text>
+  </g>
+
+  <!-- Floating Full-Stack Architecture Card -->
+  <rect x="260" y="246" width="242" height="132" rx="12" fill="#0b172c" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5" />
+  <rect x="260" y="246" width="242" height="4" rx="2" fill="url(#cyanAccent)" />
+  <text x="280" y="274" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#22d3ee" letter-spacing="0.8">STACK ARCHITECTURE</text>
+
+  <!-- 3 Nodes: UI -> API -> DB -->
+  <rect x="280" y="294" width="56" height="46" rx="8" fill="#112240" stroke="#1e3a5f" />
+  <text x="308" y="315" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">UI</text>
+  <text x="308" y="330" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#94a3b8">Client</text>
+
+  <line x1="336" y1="317" x2="352" y2="317" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="3 2" />
+
+  <rect x="352" y="294" width="58" height="46" rx="8" fill="#112240" stroke="#1e3a5f" />
+  <text x="381" y="315" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">API</text>
+  <text x="381" y="330" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#94a3b8">REST/Auth</text>
+
+  <line x1="410" y1="317" x2="426" y2="317" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="3 2" />
+
+  <rect x="426" y="294" width="58" height="46" rx="8" fill="#112240" stroke="#1e3a5f" />
+  <text x="455" y="315" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">DB</text>
+  <text x="455" y="330" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#94a3b8">Postgres</text>
+
+  <!-- Status Bar -->
+  <circle cx="286" cy="360" r="3.5" fill="#22d3ee" />
+  <text x="296" y="364" font-family="Consolas, monospace" font-size="10.5" fill="#94a3b8">Responsive • Clean Code • CRUD</text>
+</svg>

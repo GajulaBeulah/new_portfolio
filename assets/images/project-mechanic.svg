@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200" role="img" aria-label="Mechanic Way dashboards preview">
+  <rect width="400" height="200" fill="#0b172c" />
+  <rect x="24" y="24" width="352" height="152" rx="10" fill="#112240" stroke="#1e3a5f" />
+  <rect x="24" y="24" width="76" height="152" rx="10" fill="#0d1b34" />
+  <rect x="86" y="24" width="14" height="152" fill="#0d1b34" />
+  <rect x="38" y="44" width="48" height="8" rx="4" fill="#22d3ee" fill-opacity="0.7" />
+  <rect x="38" y="66" width="42" height="6" rx="3" fill="#334155" />
+  <rect x="38" y="84" width="46" height="6" rx="3" fill="#334155" />
+  <rect x="38" y="102" width="38" height="6" rx="3" fill="#334155" />
+  <!-- 3 Role Cards: Admin, User, Mechanic -->
+  <rect x="116" y="42" width="74" height="48" rx="6" fill="#0b172c" stroke="#22d3ee" stroke-opacity="0.4" />
+  <text x="153" y="64" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#22d3ee">ADMIN</text>
+  <rect x="130" y="73" width="46" height="5" rx="2.5" fill="#475569" />
+
+  <rect x="200" y="42" width="74" height="48" rx="6" fill="#0b172c" stroke="#1e3a5f" />
+  <text x="237" y="64" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">USER</text>
+  <rect x="214" y="73" width="46" height="5" rx="2.5" fill="#475569" />
+
+  <rect x="284" y="42" width="76" height="48" rx="6" fill="#0b172c" stroke="#1e3a5f" />
+  <text x="322" y="64" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">MECHANIC</text>
+  <rect x="299" y="73" width="46" height="5" rx="2.5" fill="#475569" />
+
+  <rect x="116" y="104" width="244" height="56" rx="6" fill="#0b172c" stroke="#1e3a5f" />
+  <rect x="130" y="120" width="90" height="6" rx="3" fill="#334155" />
+  <rect x="130" y="136" width="160" height="6" rx="3" fill="#1e3a5f" />
+  <circle cx="334" cy="132" r="12" fill="none" stroke="#22d3ee" stroke-width="2" />
+  <path d="M329 132l3.5 3.5 6.5-7" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
